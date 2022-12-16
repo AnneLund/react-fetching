@@ -16,15 +16,23 @@ export const Globals = createGlobalStyle`
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 1em 0;
+}
 
   article{
     width: 50%;
     margin: auto;
+    padding-top: 1em;
   }
 
   h2{
     margin: 1em;
   }
+
+  h4{
+  margin: 1em;
+  }
+
   ol{
     text-align: left;
     li{
@@ -32,5 +40,5 @@ export const Globals = createGlobalStyle`
         margin: .5em 0;
     }
   }
-}
+
 `
